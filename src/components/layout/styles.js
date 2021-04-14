@@ -8,17 +8,19 @@ const useStyles = makeStyles({
         width: '100%',
         overflow: 'hidden'
     },
-    rigthSidebar: {
-        backgroundColor: '#BDC3C7',
-        width: '18%'
-    },
     leftSidebar: {
-        backgroundColor: '#BDC3C7',
+        backgroundColor: 'white',
         width: '25%'
     },
     mainSidebar: {
-        backgroundColor: '#BDC3C7',
+        backgroundColor: 'white',
         flex: 1
+    },
+    divider:{
+        height: '100%',
+        width: 1,
+        backgroundColor: '#7BEAFF !important',
+        filter: 'opacity(0.5)'
     }
 })
 
