@@ -39,21 +39,12 @@ export default function RightSidebar() {
                 <Grid item container>
                     <img src={"https://i.pinimg.com/236x/5b/1f/de/5b1fde19188203190af6c6cc7e13d223.jpg"} height="35" width="35" />
                     <Typography className={classes.hashtag}>
-                        پرچم_دار_جدید
+                        {item}
                     </Typography>
                 </Grid>
                 </ButtonBase>
                         )
                 }
-
-                {/* <ButtonBase className={classes.hashtagParent}>
-                <Grid item container>
-                    <img src={"https://i.pinimg.com/236x/5b/1f/de/5b1fde19188203190af6c6cc7e13d223.jpg"} height="35" width="35" />
-                    <Typography className={classes.hashtag}>
-                        پرچم_دار_جدید
-                    </Typography>
-                </Grid>
-                </ButtonBase> */}
 
             </Grid>
         </div>

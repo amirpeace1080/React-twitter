@@ -1,5 +1,6 @@
 import { Divider } from '@material-ui/core';
 import React from 'react'
+import LeftSidebar from '../leftSidebar/LeftSidebar';
 import RightSidebar from '../rightSidebar/RightSidebar';
 import useStyles from './styles'
 
@@ -11,7 +12,8 @@ const Layout = () =>{
             <RightSidebar />
             <Divider orientation={"vertical"} className={classes.divider} />
             <div className={classes.mainSidebar}>Center Sidebar</div>
-            <div className={classes.leftSidebar}>Left Sidebar</div>
+            <Divider orientation={"vertical"} className={classes.divider} />
+            <LeftSidebar />
         </div>
     )
 }
